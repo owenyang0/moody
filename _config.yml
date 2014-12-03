@@ -1,0 +1,38 @@
+# config
+cover: /img/img-bg.jpg
+logo: /img/logo.svg
+bio: 爱看书，爱社区，爱前端，爱代码。爱这样一个挨踢的行业。
+
+# Content
+excerpt_link: Read More
+
+# Header  nav
+menu:
+  Home: /
+  # Archive: /archive
+  # Images: /img
+  # Wiki: /wiki/2014-10-28-wiki/
+  # Favorites: /favorites
+  Contact: /about/
+
+##Private: /private
+
+# nav.fonticon.css
+navclass:
+  Home: icon-home
+  Archive: icon-news
+  Images: icon-image
+  Wiki: icon-wiki
+  Favorites: icon-Favorites
+  Contact: icon-mail
+
+##Private: icon-lock
+rss: /atom.xml
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
