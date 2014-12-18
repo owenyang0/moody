@@ -3,7 +3,6 @@
   <% page.posts.each(function(post) { %>
   <article class="post">
     <header class="post-header">
-      <%- partial('post/meta', {post: post}) %>
       <h2 class="post-title"><a href="<%- config.root %><%- post.path %>"><%- post.title %></a></h2>
     </header>
     <section class="post-excerpt">
@@ -18,6 +17,7 @@
       <p>
           <a href="<%- config.root %><%- post.path %>" class="excerpt-link"><%= theme.excerpt_link %>...</a>
       </p>
+      <%- partial('post/meta', {post: post}) %>
       <% } %>
     </section>
   </article>

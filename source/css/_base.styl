@@ -1,6 +1,6 @@
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
-  font-size: 16px;
+  font-family: 'Open Sans', '微软雅黑', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
   color: #3A4145;
   background: white;
 }
@@ -17,5 +17,16 @@ button {
   &:hover,
   &:active {
     background: rgba(0, 0, 0, 0.2);
+  }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $link-color-hover;
+    outline: none;
   }
 }

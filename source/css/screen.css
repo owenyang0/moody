@@ -48,13 +48,13 @@
  text-shadow: none;
 }
 ::selection { color: #fff; background: #FF4F93; text-shadow: none; }
-a { color: #1F85C8; text-decoration: none; transition: color ease 0.3s; outline: none; }
-a:hover, a:focus { color: #3498DB; outline: none; }
+/*a { color: #1F85C8; text-decoration: none; transition: color ease 0.3s; outline: none; }*/
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #50585D; }
-p, ul, ol, dl { margin: 1.6em 0; }
+/*p, ul, ol, dl { margin: 1.6em 0; }
 ol ol, ul ul, ul ol, ol ul { margin: 0.4em 0; }
 dl dt { float: left; width: 180px; overflow: hidden; clear: left; text-align: right; text-overflow: ellipsis; white-space: nowrap; font-weight: bold; margin-bottom: 1em }
-dl dd { margin-left: 200px; margin-bottom: 1em }
+dl dd { margin-left: 200px; margin-bottom: 1em }*/
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #efefef; margin: 3.2em 0; padding: 0; }
 blockquote { -moz-box-sizing: border-box; box-sizing: border-box; margin: 1.6em 0 1.6em 0; padding: 0; border-left: #2A97A5 0.4em solid; color: #777; }
 blockquote p { margin: 1em; }
@@ -93,7 +93,7 @@ margin on the iframe, cause it breaks stuff. */
 /* ==========================================================================
    4. General - The main styles for the the theme
    ========================================================================== */
-.post { position: relative; width: 80%; max-width: 700px; margin: 4rem auto; padding-bottom: 4rem; border-bottom: #EBF2F6 1px solid; word-break: break-word; hyphens: auto; }
+/*.post { position: relative; width: 80%; max-width: 700px; margin: 4rem auto; padding-bottom: 4rem; border-bottom: #EBF2F6 1px solid; word-break: break-word; hyphens: auto; }*/
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints.
 .post:after {
@@ -112,14 +112,6 @@ margin on the iframe, cause it breaks stuff. */
     border-radius: 100%;
     box-shadow: #fff 0 0 0 5px;
 } */
-
-.post-title { margin: 0; }
-.post-title a { text-decoration: none; }
-.post-excerpt p { margin: 1.6rem 0 0 0; font-size: 0.9em; line-height: 1.6em; }
-.post-meta { display: inline-block; margin: 0 0 5px 0; font-family: 'Open Sans', sans-serif; font-size: 1.5rem; color: #9EABB3; }
-.post-meta a { color: #9EABB3; text-decoration: none; }
-.post-meta a:hover { color: #2980B9;text-decoration: underline; }
-.user-meta { position: relative; padding: 0.3rem 40px 0 100px; min-height: 77px; }
 .user-image { position: absolute; top: 0; left: 0; }
 .user-name { display: block; font-weight: bold; }
 .user-bio { display: block; max-width: 440px; font-size: 1.4rem; line-height: 1.5em; }
