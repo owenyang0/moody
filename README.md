@@ -1,12 +1,16 @@
 # Moody - theme for hexo
 > hexo静态模版主题，fork from [moretwo](https://github.com/moretwo/hexo-theme.git)
 
-Preview: [live demo](http://owenyang0.github.io/)
+## Description
+
+> 1. Style redesigned by stylus
+> 2. Preview: [live demo](http://owenyang0.github.io/)
 
 ## Install
 
 ``` bash
-  $ git clone https://github.com/owenyang0/moody.git
+  $ git clone https://github.com/owenyang0/moody.git themes/
+  $ npm i
 ```
 
 ## License
