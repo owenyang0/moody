@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-.site-head { min-height: 420px; }
 button { border: none; padding: 0.6em 1.2em; background: #a9a9a9; color: #fff; font-family: Arial, sans-serif; font-size: 1em; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; display: inline-block; margin: 10px; border-radius: 2px; font-weight: 400; outline: none; }
 button { font-size: 75%; background: none; border: 1px #fff solid; }
 button:hover, button:active { background: rgba(0,0,0,0.2); }
