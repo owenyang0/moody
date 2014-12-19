@@ -3,15 +3,25 @@
   width: 80%;
   max-width: 700px;
   margin: 2rem auto;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   border-bottom: #EBF2F6 1px solid;
-  word-break: break-word;
+  
+  // border-bottom: #D52948 2px solid;
 }
 
 .post-title {
   margin: 10px 0;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
+
+  a {
+    // color: $meta-color;
+    &:hover {
+      // color: $meta-color-hover;
+      color: #f00;
+      text-decoration: none;
+    }
+  }
 }
 
 .post-content {
@@ -38,7 +48,6 @@
     color: $meta-color;
     &:hover {
       color: $meta-color-hover;
-      text-decoration: underline;
     }
   }
 }
@@ -64,6 +73,14 @@
 
   &:hover {
     background: $meta-bg-color-hover;
+    text-decoration: none;
     color: #fff;
   }
+}
+
+.post-header {
+  // margin-top: 30px;
+  padding: 10px;
+background: #eee;
+color: #fff;
 }
