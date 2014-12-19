@@ -134,15 +134,6 @@ pre .chunk { color: #aaa }
 .gist table { margin: 0; font-size: 1.4rem; }
 .gist .line-number { min-width: 25px; font-size: 1.1rem; }
 /* ==========================================================================
-   7. Pagination - Tools to let you flick between pages
-   ========================================================================== */
-/* Push the previous/next links out to the left/right */
-.older-posts, .newer-posts { position: absolute; display: inline-block; padding: 0 15px; border: #EBF2F6 2px solid; text-decoration: none; border-radius: 30px; transition: border ease 0.3s; }
-.older-posts { right: 0; }
-.page-number { display: inline-block; padding: 2px 0; }
-.newer-posts { left: 0; }
-.older-posts:hover, .newer-posts:hover { border-color: #9EABB3; color: #ff8d66; }
-/* ==========================================================================
    8. Footer - The bottom of every page
    ========================================================================== */
 .poweredby .icon-ghost { font-weight: 700; text-decoration: none; }
