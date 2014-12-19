@@ -1,4 +1,5 @@
 .pagination {
+  position: relative;
   font-size: 0.9rem;
   color: $moody-grey;
   text-align: center;
@@ -8,6 +9,7 @@
 }
 
 .older-posts, .newer-posts {
+  position: absolute;
   padding: 3px 15px;
   border: #EBF2F6 2px solid;
   border-radius: 30px;
@@ -20,9 +22,9 @@
 }
 
 .older-posts {
-  float: right;
+    right: 0;
 }
 
 .newer-posts {
-  float: left;
+  left: 0;
 }
