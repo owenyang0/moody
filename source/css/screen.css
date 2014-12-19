@@ -80,19 +80,6 @@ margin on the iframe, cause it breaks stuff. */
 .post-template .site-head:after { position: absolute; bottom: -5px; left: 50%; display: block; width: 7px; height: 7px; margin-left: -5px; content: ''; border: #e7eef2 1px solid; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; background: #fff; box-shadow: #fff 0 0 0 5px; }
 /* Keep large images within the bounds of the post-width */
 .post-content img { display: block; max-width: 100%; margin: 0 auto; height: auto; }
-/* The author credit area after the post */
-.post-footer { position: relative; margin: 4rem 0 0 0; padding: 4rem 0 0 0; border-top: #EBF2F6 1px solid; }
-.post-footer h4 { font-size: 1.8rem; margin: 0; }
-.post-footer p { margin: 1rem 0; font-size: 1.4rem; line-height: 1.6em; }
-/* Create some space to the right for the share links */
-.post-footer .author { margin-right: 240px; }
-/* Drop the share links in the space to the right.
-   Doing it like this means it's easier for the author bio
-   to be flexible at smaller screen sizes while the share
-   links remain at a fixed width the whole time */
-.post-footer .share { position: absolute; top: 4rem; right: 0; width: 160px; }
-.post-footer .share a { font-size: 1.8rem; display: inline-block; margin: 1.4rem 1.6rem 1.6rem 0; color: #BBC7CC; text-decoration: none; }
-.post-footer .share a:hover { color: #50585D; }
 /* ==========================================================================
    6. Third Party Elements - Embeds from other services
    ========================================================================== */
