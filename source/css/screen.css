@@ -62,25 +62,6 @@ margin on the iframe, cause it breaks stuff. */
 /* ==========================================================================
    4. General - The main styles for the the theme
    ========================================================================== */
-/*.post { position: relative; width: 80%; max-width: 700px; margin: 4rem auto; padding-bottom: 4rem; border-bottom: #EBF2F6 1px solid; word-break: break-word; hyphens: auto; }*/
-/* Add a little circle in the middle of the border-bottom on our .post
-   just for the lolz and stylepoints.*/
-.post:after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border: #E7EEF2 1px solid;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -5px;
-    background: #fff;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    box-shadow: #fff 0 0 0 5px;
-} 
 .user-image { position: absolute; top: 0; left: 0; }
 .user-name { display: block; font-weight: bold; }
 .user-bio { display: block; max-width: 440px; font-size: 1.4rem; line-height: 1.5em; }
@@ -168,10 +149,6 @@ pre .chunk { color: #aaa }
 /* ==========================================================================
    8. Footer - The bottom of every page
    ========================================================================== */
-
-.site-footer { position: relative; margin: 8rem 0 0 0; padding: 4rem 0; border-top: #EBF2F6 1px solid; font-family: 'Open Sans', sans-serif; font-size: 1.3rem; line-height: 1.7em; color: #BBC7CC; text-align: center; background: #f8f8f8; }
-.site-footer a { color: #BBC7CC; text-decoration: underline; }
-.site-footer a:hover { color: #50585D; }
 .poweredby .icon-ghost { font-weight: 700; text-decoration: none; }
 .poweredby .icon-ghost:hover { text-decoration: none; }
 .poweredby .icon-ghost:before { font-size: 1rem; margin-right: 0.2em; }
