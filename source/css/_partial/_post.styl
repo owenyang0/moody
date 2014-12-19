@@ -7,18 +7,25 @@
   border-bottom: #EBF2F6 1px solid;
 }
 
+.post-header {
+  padding: 10px;
+  background: #eee;
+  color: #fff;
+  border-left: 3px solid #eee;
+
+  &:hover {
+    border-left: 3px solid #f00;
+  }
+}
+
 .post-title {
   margin: 10px 0;
   text-transform: uppercase;
   text-align: left;
 
-  a {
-    // color: $meta-color;
-    &:hover {
-      // color: $meta-color-hover;
-      color: #f00;
-      text-decoration: none;
-    }
+  a:hover {
+    color: $link-color;
+    text-decoration: none;
   }
 }
 
@@ -74,12 +81,6 @@
     text-decoration: none;
     color: #fff;
   }
-}
-
-.post-header {
-  padding: 10px;
-  background: #eee;
-  color: #fff;
 }
 
 .post-footer {
