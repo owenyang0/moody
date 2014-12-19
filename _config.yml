@@ -37,3 +37,9 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+# feed generator
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
