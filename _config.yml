@@ -31,7 +31,7 @@ navclass:
 rss: /atom.xml
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-57882600-1
 favicon: /favicon.png
 twitter:
 google_plus:
