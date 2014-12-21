@@ -14,9 +14,9 @@
       <% } %>
       </p>
       <% if (theme.excerpt_link) { %>
-      <p>
+      <span class="read-more">
           <a href="<%- config.root %><%- post.path %>" class="excerpt-link"><%= theme.excerpt_link %></a>
-      </p>
+      </span>
       <%- partial('post/meta', {post: post}) %>
       <% } %>
     </section>

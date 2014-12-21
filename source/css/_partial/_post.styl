@@ -2,8 +2,8 @@
   position: relative;
   width: 80%;
   max-width: 700px;
-  margin: 2rem auto;
-  padding-bottom: 2rem;
+  margin: 1rem auto;
+  padding-bottom: 0.5rem;
   border-bottom: #EBF2F6 1px solid;
 }
 
@@ -19,9 +19,11 @@
 }
 
 .post-title {
-  margin: 10px 0;
+  margin: 0;
   text-transform: uppercase;
   text-align: left;
+  border-bottom: 1px dashed #eee;
+  padding: 5px 0;
 
   a:hover {
     color: $link-color;
@@ -47,10 +49,12 @@
 .post-meta {
   font-size: 0.9rem;
   display: block;
-  margin-top: 20px;
+  margin: 20px 0;
+  margin-top: 10px;
 
   a {
     color: $meta-color;
+    font-style: italic;
     &:hover {
       color: $meta-color-hover;
     }
@@ -68,6 +72,11 @@
     margin: 1.6rem 0 0 0;
     line-height: 1.6em;
   }
+}
+
+.read-more {
+  display: block;
+  margin: 3rem 0 1.5rem;
 }
 
 .excerpt-link {
