@@ -1,6 +1,6 @@
 {
   "name": "moody",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "theme for hexo",
   "main": "index.js",
   "dependencies": {
