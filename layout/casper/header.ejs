@@ -1,9 +1,15 @@
-<header class="site-head" <% if (theme.cover) { %> style="background: #24282b url(<%- theme.cover %>) 0 -20%" <% } %>>
-    <div class="vertical">
-        <div class="site-head-content inner">
-            <% if (theme.logo) { %> <a class="blog-logo" href="<%- config.root %>"><img src="<%- theme.logo %>" alt="Blog Logo"/></a> <% } %>
-            <h1 class="blog-title"><%- config.title %></h1>
-            <h2 class="blog-description"><%- config.subtitle %><button id="showMenu">Show Menu</button></h2>
-        </div>
+<header class="header">
+    <a href="#" class="logo"><%- config.title %></a>
+    <nav class="header__nav">
+        <ul class="header__nav-list">
+            <li class="nav-item"><a href=".">Home</a></li>
+            <li class="nav-item"><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    <div class="hero" style="height: 300px;">
+          <div class="hero__background">
+            <img src="/img/background.png">
+          </div>
+        <div class="hero__cover on"></div>
     </div>
 </header>
