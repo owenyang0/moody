@@ -10,12 +10,21 @@
 }
 
 .logo {
+  display: block;
+  width: 200px;
+  margin-left: 50px;
   font-size: 36px;
   color: #fff;
   line-height: 70px;
-  height: 70px;
-  padding-left: 50px;
+  padding: 0 10px;
+  text-align: center;
   font-family: 'League Gothic';
+
+  &:hover, &:focus {
+    background-color: $link-color;
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 .header__nav {
@@ -66,6 +75,7 @@
 .hero {
   height: 450px;
   overflow: hidden;
+  position: relative;
 }
 
 .hero__background {
