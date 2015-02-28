@@ -11,21 +11,12 @@
   <div class="container">
     <!-- wrapper -->
     <div class="wrapper">
-
       <%- partial('casper/header') %>
       <%- body %>
       <%- partial('casper/footer') %>
       <%- partial('casper/after_all') %>
-
+    </div>
   </div>
-</div>
-
-<nav  class="outer-nav top horizontal">
-<% for (var i in theme.menu){ %>
-          <a class="<%- theme.navclass[i]||'default' %>"  href="<%- url_for(theme.menu[i]) %>"><span><%= i %></span></a>
-<% } %>
-</nav>
-
 </div>
 </body>
 </html>
