@@ -1,13 +1,15 @@
 <header class="header">
-    <a href="/" class="logo"><%- config.title %></a>
-    <nav class="header__nav">
-        <ul class="header__nav-list">
-            <% for (var i in theme.menu){ %>
-                <li class="nav-item">
-                    <a class="<%- theme.navclass[i]||'default' %>"  href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
-                    </li>
-            <% } %>
+    <div class="header__container">
+        <a href="/" class="logo"><%- config.title %></a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <% for (var i in theme.menu){ %>
+                    <li class="nav-item">
+                        <a class="<%- theme.navclass[i]||'default' %>"  href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+                        </li>
+                <% } %>
 
-        </ul>
-    </nav>
+            </ul>
+        </nav>
+    </div>
 </header>
