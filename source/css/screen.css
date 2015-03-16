@@ -65,7 +65,6 @@ margin on the iframe, cause it breaks stuff. */
 .publish-meta { position: absolute; top: 0; right: 0; padding: 4.3rem 0 4rem 0; text-align: right; }
 .publish-heading { display: block; font-weight: bold; }
 .publish-date { display: block; font-size: 1.4rem; line-height: 1.5em; }
-.comments-area { width: 80%; max-width: 700px; margin: 4rem auto; }
 #comment h1 a { text-decoration: none; }
 /* ==========================================================================
    5. Single Post - When you click on an individual post
