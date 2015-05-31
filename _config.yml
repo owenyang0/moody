@@ -32,6 +32,7 @@ rss: /atom.xml
 
 # Miscellaneous
 google_analytics: UA-57882600-1
+baidu_analytics: 9f2d590e5f527b46e8628bd4322bd108
 favicon: /favicon.png
 twitter:
 google_plus:
